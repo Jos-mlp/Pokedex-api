@@ -15,13 +15,17 @@ import org.codehaus.jackson.map.ObjectMapper;
  *
  * @author dennys
  */
-public class Pokedex {
+public class Pokedex extends Thread{
     private static final String POKEMON_API_URL = "https://pokeapi.co/api/v2/pokemon/";
     private String nombrePokemon;
     
+    //Construnctor
     public Pokedex(){
     }
 
+    //metodos
+    
+    
     public Pokemon buscarPokemon(String pokeABuscar) throws IOException, InterruptedException{
             System.out.println("Conectando a la API...");
             // Código para conectarse a la API y descargar los datos.
