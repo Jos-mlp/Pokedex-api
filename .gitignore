@@ -1,0 +1,50 @@
+# NetBeans specific #
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+# NetBeans específico
+nbproyecto/privado/
+construir/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuración.xml
+
+# Archivo de clase compilado
+*.clase
+
+# Archivo de registro
+*.registro
+
+# Archivos BlueJ
+*.ctxt
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp/
+
+# Archivos de paquete #
+*.frasco
+*.guerra
+*.nar
+*.oreja
+*.cremallera
+*.tar.gz
+*.rar
+
+# registros de fallos de la máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+repetición_pid*
+/ReaderWriter/nbproject/privado/
